@@ -49,13 +49,11 @@ header .login .btn {
     padding: 10px 25px;
 }
 header nav {
-    border: 1px solid red;
     font-size: var(--font-small);
     padding-top: 50px;
     padding-bottom: 225px;
 }
 header nav ul {
-    border: 1px solid green;
     display: inline-block;
     margin-right: 107px;
 }
@@ -67,7 +65,6 @@ header ul li:last-child {
     margin-right: 0;
 }
 header .hero {
-    border: 1px solid orange;
     width: 988px;
     margin: 0 auto;
 }
@@ -83,17 +80,16 @@ header .hero .lable {
     margin-bottom: 133px;
 }
 header .house img {
-    border: 1px solid blue;
     position: absolute;
     top: 860px;
     transform: translateX(-10%);
 }
 header .choice {
-    border: 1px solid purple;
     width: 1274px;
     background-color: var(--color-light);
     margin: 0 auto;
     border-radius: 20px;
+    box-shadow: 0 0 10px 1px #CCCFD0;
 }
 header .panes ul {
     display: inline-block;
@@ -107,8 +103,14 @@ header .panes li {
 header .panes li:first-child {
     margin-left: 54px;
 }
-header .panes li:first-child:hover {
+header .choice .panes li:hover {
+    margin-bottom: 0;
+    border-bottom: 3px solid #021112;
+    padding-bottom: 30px;
+}
+header .choice .panes li a:hover {
     color: #021112;
+    font-weight: 600;
 }
 header .panes li:nth-child(2) {
     margin: 0px 88px 0px 87px;
@@ -117,8 +119,10 @@ header .panes a {
     color: var(--color-lightgray);
 }
 header .decodings {
+    width: 100%;
+    border-top: 1px solid #E0E2E3;
     display: inline-block;
-    margin-top: 32px;
+    padding-top: 32px;
     margin-bottom: 43px;
 }
 header .decodings img {
@@ -140,8 +144,8 @@ header .decoding1 {
 header .decoding2 {
     display: inline-block;
     width: 292px;
-    border-right: 1px solid rgb(236, 228, 228);    
-    border-left: 1px solid  rgb(236, 228, 228);   
+    border-right: 1px solid #CFCCCC;    
+    border-left: 1px solid #CFCCCC;   
 }
 header .decoding3 {    
     display: inline-block;
@@ -268,17 +272,114 @@ header .search .btn {
     padding-left: 0;
 }
 .properties-cards .card-back td:nth-child(2) {
-    border-left: 1px solid rgb(236, 228, 228);
-    border-right: 1px solid rgb(236, 228, 228);
+    border-left: 1px solid #CCCFD0;
+    border-right: 1px solid #CCCFD0;
 }
 .properties-cards .btn {
     font-size: 28px;
     font-weight: 600;
-    padding: 27px 148px;
+    padding: 27px 147px;
     border-radius: 20px;
     margin: 55px 33px 36px;
+    border: 2px solid #13A6BA;
+    background-color: #FFFFFF;
+    color: #13A6BA;
+}
+.properties-cards .btn:focus {
+    background-color: #13A6BA;
+    color: #FFFFFF;
 }
 .properties-cards .card:hover {
-    box-shadow: 0 0 10px 5px rgb(236, 228, 228);
+    box-shadow: 0 0 10px 5px #CCCFD0;
     border-radius: 40px;
 }
+
+.benefits {
+    position: relative;
+    margin-top: 171px;
+}
+.benefits .benefit_main {
+    margin-top: 286px;
+    margin-right: 130px;
+    display: inline-block;
+    vertical-align: top;
+}
+.benefits .benefit_group {
+    display: inline-block;
+    width: 680px;
+}
+.benefits .benefit_group h2 {
+    font-size: var(--font-heading);
+    font-weight: 700;
+    padding-top: 348px;
+    margin-bottom: 88px;
+}
+.benefits .benefit {
+    display: inline-block;
+    margin-bottom: 64px;
+    
+}
+.benefits .benefit_img {
+    display: inline-block;
+    border: 1px solid black;   
+    width: 121px;
+    height: 121px;
+    border-radius: 10px;
+    background-color: #FBFCED;
+    vertical-align: middle;
+    
+}
+.benefits .benefit_img1 {
+    padding: 27px 33px;
+}
+.benefits .benefit_img2,
+.benefits .benefit_img3 {
+    padding: 25px;
+}
+.benefits .benefit_label {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 41px;
+}
+.benefits .benefit_label h3 {
+    font-size: 36px;
+    display: inline-block;
+}
+.benefits .benefit_label p {
+    font-size: var(--font-text);
+    color: var(--color-gray);
+}
+.benefits .ellipse {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;   
+}
+.benefits .place {
+    background-color: #FFFFFF;
+    width: 391px;
+    padding: 34px 0 40px 34px;
+    border-radius: 20px;
+    position: absolute;
+    transform: translate(-25%, -120%);
+}
+.benefits .place h5 {
+    font-size: var(--font-text);
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.benefits .place p {
+    font-size: 14px;
+    color: var(--color-lightgray);
+    margin-bottom: 19px;
+}
+.benefits .place li {
+    display: inline-block;
+    margin-right: 14px;
+}
+.benefits .place li:last-child {
+    vertical-align: top;
+    border-radius: 5px;
+    margin-right: 0;
+}
+
