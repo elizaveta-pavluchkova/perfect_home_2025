@@ -297,6 +297,7 @@ header .search .btn {
 .benefits {
     position: relative;
     margin-top: 171px;
+    margin-bottom: 143px;
 }
 .benefits .benefit_main {
     margin-top: 286px;
@@ -321,7 +322,6 @@ header .search .btn {
 }
 .benefits .benefit_img {
     display: inline-block;
-    border: 1px solid black;   
     width: 121px;
     height: 121px;
     border-radius: 10px;
@@ -383,3 +383,185 @@ header .search .btn {
     margin-right: 0;
 }
 
+.san_diego {
+    position: relative;
+}
+.san_diego .offers {
+    display: inline-block;
+    width: 694px;
+    margin: 360px 235px 0 0;
+}
+.san_diego .offers h2 {
+    font-size: var(--font-heading);
+    font-weight: 700;
+    margin-bottom: 41px;
+}
+.san_diego .offers h2 + p {
+    font-size: var(--font-text);
+    color: var(--color-gray);
+    line-height: 38px;
+    margin-bottom: 46px;
+}
+.san_diego .offers td:first-child {
+    width: 201px;
+}
+.san_diego .offers td:nth-child(3) {
+    width: 245px;
+    padding-left: 45px;
+}
+.san_diego .offers td:nth-child(5) {
+    padding-left: 45px;
+}
+.san_diego .offers table span {
+    font-size: 42px;
+    font-weight: 700;
+}
+.san_diego .offers table p {
+   color: var(--color-gray);
+   font-size: 18px;
+   line-height: normal;
+}
+
+
+.san_diego .offers_lable {
+    position: relative;
+    display: inline-block;
+    background-color: #FFFFFF ;
+    vertical-align: top;
+    width: 583px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 1px hsl(180, 12%, 94%);
+    padding: 40px 40px 29px 40px;
+    margin-top: 172px;
+    z-index: 1;
+}
+#points {
+    display: block;
+    margin-left: 500px;
+    margin-bottom: 36px;
+}
+.san_diego .reviews img {
+    display: inline-block;
+    margin-top: 39px;
+    margin-left: -30px;
+}
+.san_diego .reviews img:first-child {
+    margin-left: 0;
+}
+.san_diego .reviews span {
+    display: inline-block;
+    vertical-align: 23px;
+    font-size: 14px;
+    margin-left: 29px;
+}
+.san_diego .reviews p {
+    margin-top: 34px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: var(--color-gray);
+    line-height: 182%;
+}
+.san_diego .reviews li {
+    display: inline-block;
+}
+.san_diego .reviews li img{
+    margin-top: 0;
+}
+.san_diego .reviews li:first-child {
+    margin: 0 149px 0 210px;
+}
+.san_diego .offers_lable .google {
+    width: 169px;
+    height: 169px;
+    padding: 36px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    position: absolute;    
+    transform: translate(283%, -350%);
+}
+.san_diego .offers_lable .bookmark {
+    width: 52px;
+    height: 52px;
+    padding: 13px 17px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    position: absolute;
+    transform: translate(805%, -570%);
+}
+.san_diego .heart1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+.san_diego .heart2 {
+    position: absolute;
+    top: 15%;
+    right: 0;
+}
+.san_diego .estate {
+    width: 308px;
+    height: 308px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    position: absolute;
+    transform: translate(-65%, -35%);
+    box-shadow: 0 0 20px 1px hsl(180, 12%, 94%);
+}
+#logo_sd {
+    margin: 33px 119px 14px;
+}
+.san_diego .estate h5 {
+    font-size: var(--font-text);
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 6px;
+}
+.san_diego .estate p {
+    font-size: 10px;
+    color: var(--color-lightgray);
+    text-align: center;
+    margin-bottom: 26px;
+}
+.san_diego .estate td {
+    font-size: 12px;
+    color: var(--color-gray);
+}
+.san_diego .estate td:first-child {
+    padding-left: 27px;
+    padding-right: 113px;
+}
+.san_diego .estate .buttons {
+    display: inline-block;
+    margin-top: 22px;
+}
+.san_diego .buttons .btn_option {
+  display: inline-block;  
+  border-radius: 10px;
+  background-color: #772D8B;
+  line-height: 2.2;
+  width: 116px;                   
+  height: 42px;
+  padding-left: 24px;
+}
+.san_diego .buttons .btn_text {
+  display: inline-block;
+  margin-left: 7px;
+  font-size: 10px;     
+  color: #FFFFFF;         
+}
+.san_diego .buttons .btn_option:first-child {
+    margin-left: 27px;
+    margin-right: 22px;
+}
+.san_diego .buttons .btn_option:last-child {
+    border: 1px solid #E0E2E3;
+    background-color: #FFFFFF;
+}
+.san_diego .buttons .btn_option__messages {
+    color: var(--font-text);
+}
+
+.questionnaire {
+    border: 1PX solid red;
+}
