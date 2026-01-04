@@ -25,7 +25,7 @@ body,
 }
 
 .btn {
-    color: #FFFFFF;
+    color: var(--color-light);
     background-color: #13A6BA;    
     display: inline-block;
     font-weight: 600;
@@ -282,12 +282,12 @@ header .search .btn {
     border-radius: 20px;
     margin: 55px 33px 36px;
     border: 2px solid #13A6BA;
-    background-color: #FFFFFF;
+    background-color: var(--color-light);
     color: #13A6BA;
 }
 .properties-cards .btn:focus {
     background-color: #13A6BA;
-    color: #FFFFFF;
+    color: var(--color-light);
 }
 .properties-cards .card:hover {
     box-shadow: 0 0 10px 5px #CCCFD0;
@@ -356,7 +356,7 @@ header .search .btn {
     z-index: -1;   
 }
 .benefits .place {
-    background-color: #FFFFFF;
+    background-color: var(--color-light);
     width: 391px;
     padding: 34px 0 40px 34px;
     border-radius: 20px;
@@ -418,15 +418,14 @@ header .search .btn {
 }
 .san_diego .offers table p {
    color: var(--color-gray);
-   font-size: 18px;
+   font-size: var(--font-small);
    line-height: normal;
 }
-
 
 .san_diego .offers_lable {
     position: relative;
     display: inline-block;
-    background-color: #FFFFFF ;
+    background-color: var(--color-light) ;
     vertical-align: top;
     width: 583px;
     border-radius: 20px;
@@ -434,6 +433,7 @@ header .search .btn {
     padding: 40px 40px 29px 40px;
     margin-top: 172px;
     z-index: 1;
+    margin-bottom: 234px;
 }
 #points {
     display: block;
@@ -474,7 +474,7 @@ header .search .btn {
     width: 169px;
     height: 169px;
     padding: 36px;
-    background-color: #FFFFFF;
+    background-color: var(--color-light);
     border-radius: 20px;
     position: absolute;    
     transform: translate(283%, -350%);
@@ -483,7 +483,7 @@ header .search .btn {
     width: 52px;
     height: 52px;
     padding: 13px 17px;
-    background-color: #FFFFFF;
+    background-color: var(--color-light);
     border-radius: 5px;
     position: absolute;
     transform: translate(805%, -570%);
@@ -502,7 +502,7 @@ header .search .btn {
 .san_diego .estate {
     width: 308px;
     height: 308px;
-    background-color: #FFFFFF;
+    background-color: var(--color-light);
     border-radius: 20px;
     position: absolute;
     transform: translate(-65%, -35%);
@@ -548,7 +548,7 @@ header .search .btn {
   display: inline-block;
   margin-left: 7px;
   font-size: 10px;     
-  color: #FFFFFF;         
+  color: var(--color-light);         
 }
 .san_diego .buttons .btn_option:first-child {
     margin-left: 27px;
@@ -556,12 +556,73 @@ header .search .btn {
 }
 .san_diego .buttons .btn_option:last-child {
     border: 1px solid #E0E2E3;
-    background-color: #FFFFFF;
+    background-color: var(--color-light);
 }
 .san_diego .buttons .btn_option__messages {
     color: var(--font-text);
 }
 
-.questionnaire {
-    border: 1PX solid red;
+.testimontals {
+    background-color: #FDF6ED;
+    height: 992px;
+    margin: 243px 0;
 }
+
+.testimontals .testimontal {
+    position: relative;
+    height: 992px;
+    display: inline-block;
+}
+.testimontals .man_img {
+    display: inline-block;
+    position: absolute;
+    transform: translateY(-20%);
+}
+
+.testimontals .testimontal_text {
+    display: inline-block;
+    margin-left: 922px;
+    width: 695px;
+    margin-top: 189px;
+}
+.testimontals .testimontal_text span {
+    color: #13A6BA;
+    font-size: var(--font-small);
+    line-height: 42px;
+    letter-spacing: 8px;
+}
+.testimontals .testimontal_text h2 {
+    font-size: var(--font-heading);
+    
+}
+.testimontals .testimontal_text p {
+    font-size: 24px;
+    line-height: 42px;
+    margin: 49px 0 58px 0px;
+}
+.testimontals .testimontal_text h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 42px;
+}
+.testimontals .testimontal_text label {
+    font-size: var(--font-small);
+    color: var(--color-gray);
+    line-height: 29px;
+}
+.testimontals .testimontal .half {
+    position: absolute;
+    top: 21%;
+    right: 50%;
+}
+.testimontals .testimontal .glow {
+    position: absolute;
+    top: 21%;
+    right: 48%;
+}
+.testimontals .testimontal .marks {
+    position: absolute;
+    top: 9%;
+    left: 95%;
+}
+
