@@ -68,7 +68,7 @@ header .hero {
     width: 988px;
     margin: 0 auto;
 }
-header .hero .title {
+header .hero h1 {
     font-size: 80px;
     text-align: center;
     margin-bottom: 31px;
@@ -565,7 +565,7 @@ header .search .btn {
 .testimontals {
     background-color: #FDF6ED;
     height: 992px;
-    margin: 243px 0;
+    margin-block: 243px;
 }
 
 .testimontals .testimontal {
@@ -626,3 +626,84 @@ header .search .btn {
     left: 95%;
 }
 
+.questionnaire {
+    position: relative;
+    margin-bottom: 109px;
+}
+.questionnaire .question {
+    display: inline-block;    
+    position: relative;
+}
+.questionnaire .question .survey {
+    display: inline-block;
+    width: 694px;
+    margin-right: 198px;
+}
+.questionnaire .survey h2 {
+    padding-top: 47px;
+    font-size: var(--font-heading);
+    font-weight: 700;
+    line-height: 91px;
+    margin-bottom: 41px;
+}
+.questionnaire .survey p {
+    width: 568px;
+    font-size: var(--font-text);
+    color: var(--color-gray);
+    line-height: 38px;
+    margin-bottom: 187px;
+}
+.questionnaire .subscribe {
+    position: relative;
+    display: inline-block;
+    width: 715px;
+    height: 105px;
+    background-color: var(--color-light);
+    border: 1px solid #C8F3F9;
+    border-radius: 20px;
+    vertical-align: top;
+    margin-top: 164px; 
+    z-index: 1;  
+}
+.subscribe input[type="email"] {
+    padding: 38px 10px 38px 45px;
+    width: 500px;
+    border-radius: 20px;
+    border: none;
+}
+.subscribe input[type="email"]::placeholder {
+    color: var(--color-gray);
+    font-size: 30px;
+    font-size: var(--font-small);  
+    line-height: 29px;
+}
+.subscribe input[type="submit"] {
+    width: 188px;
+    height: 72px;
+    background-color: #13A6BA;
+    border-radius: 15px;
+    border: none;
+    color: var(--color-light);
+    font-size: var(--font-text);
+    font-weight: 600;
+    margin: 14px 14px 14px 0;
+    line-height: 29px;
+}
+.subscribe input[type="email"]:focus {
+  outline: none;
+}
+.questionnaire .semicircle {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+} 
+ .questionnaire .sign {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.points {
+    position: absolute;
+    top: 252px;
+    left: 1489px;
+}
