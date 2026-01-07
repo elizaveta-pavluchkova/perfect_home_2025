@@ -19,7 +19,6 @@ body,
     color: #021112;
 }
 .container {
-    border: 1px solid yellow;
     max-width: 1620px;
     margin: 0 auto;
 }
@@ -70,8 +69,10 @@ header .hero {
 }
 header .hero h1 {
     font-size: 80px;
+    font-weight: 800;
     text-align: center;
     margin-bottom: 31px;
+    line-height: 105px;
 }
 header .hero .lable {
     font-size: var(--font-text);
@@ -285,7 +286,7 @@ header .search .btn {
     background-color: var(--color-light);
     color: #13A6BA;
 }
-.properties-cards .btn:focus {
+.properties-cards .btn:hover {
     background-color: #13A6BA;
     color: var(--color-light);
 }
@@ -360,6 +361,7 @@ header .search .btn {
     width: 391px;
     padding: 34px 0 40px 34px;
     border-radius: 20px;
+    box-shadow: 0 0 5px 0px #00000014;
     position: absolute;
     transform: translate(-25%, -120%);
 }
@@ -378,6 +380,7 @@ header .search .btn {
     margin-right: 14px;
 }
 .benefits .place li:last-child {
+    background-color: #F93633;
     vertical-align: top;
     border-radius: 5px;
     margin-right: 0;
@@ -706,4 +709,81 @@ header .search .btn {
     position: absolute;
     top: 252px;
     left: 1489px;
+}
+
+footer .footer_logo,
+footer nav,
+footer nav ul {
+    display: inline-block;
+}
+footer {
+    margin-bottom: 26px;
+}
+footer .footer_logo {
+    width: 338px;
+    margin-right: 150px;
+    vertical-align: top;
+}
+footer .footer_logo p {
+    font-size: var(--font-text);
+    color: var(--color-gray);
+    line-height: 29px;
+    margin-top: 38px;
+}
+footer nav {
+    vertical-align: top;
+    margin-bottom: 81px;
+}
+footer ul {
+    list-style: none;
+    padding-left: 0;
+    margin-right: 150px;
+}
+footer ul li:first-child {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 42px;
+    margin-bottom: 50px;
+}
+footer ul li {
+    font-size: var(--font-text);
+    line-height: 29px;
+    margin-bottom: 24px;
+}
+footer ul li:last-child {
+        margin-bottom: 0;
+}
+
+
+
+footer .connection {
+    width: 283px;
+    display: inline-block;
+}
+footer .connection h5 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 42px;
+}
+footer .connection p {
+    font-size: var(--font-text);
+    line-height: 29px;
+    margin-top: 50px;
+    margin-bottom: 41px;
+}
+footer .socials a {
+    margin-right: 34px;
+}
+footer .socials a:last-child {
+    margin-right: 0;
+}
+hr {
+    color: #E0E2E3;
+    margin-bottom: 27px;
+}
+footer hr + p {
+    text-align: center;
+    font-size: var(--font-small);
+    color: var(--color-gray);
+    text-align: center;
 }
